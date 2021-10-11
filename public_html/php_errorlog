@@ -1,0 +1,27 @@
+[01-Oct-2021 08:12:32 UTC] wp_auto_login: trying to login user_id==1 loginusername=bakul to admin_url=http://microaware.xyz/wp-admin/
+[01-Oct-2021 08:52:55 UTC] wp_auto_login: trying to login user_id==1 loginusername=bakul to admin_url=https://microaware.xyz/wp-admin/
+[03-Oct-2021 00:37:36 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/SliderManager/SliderManager.php on line 82
+[03-Oct-2021 00:37:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::isGroup() in /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php:40
+Stack trace:
+#0 /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ControllerPreRenderSlider.php(29): Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe->display()
+#1 [internal function]: Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider->actionIframe()
+#2 /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/Framework/Controller/AbstractController.php(93): call_user_func_array(Array, Array)
+#3 /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('iframe', Array)
+#4 /home/customer/www/microaware.xyz/public_html/wp in /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php on line 40
+[03-Oct-2021 06:30:45 UTC] wp_auto_login: trying to login user_id==1 loginusername=bakul to admin_url=https://www.microaware.xyz/wp-admin/
+[03-Oct-2021 07:26:38 UTC] wp_auto_login: trying to login user_id==1 loginusername=bakul to admin_url=https://www.microaware.xyz/wp-admin/
+[04-Oct-2021 23:40:44 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `nfb_options` WHERE `option_name` = '_transient_timeout_astra-theme-cron-test-ok' made by require('wp-blog-header.php'), wp, WP->main, do_action_ref_array('wp'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Theme_Background_Updater->install_actions, Astra_Theme_Background_Updater->test_cron, get_transient, delete_option
+[05-Oct-2021 04:42:14 UTC] wp_auto_login: trying to login user_id==1 loginusername=bakul to admin_url=https://www.microaware.xyz/wp-admin/
+[06-Oct-2021 05:52:55 UTC] wp_auto_login: trying to login user_id==1 loginusername=bakul to admin_url=https://www.microaware.xyz/wp-admin/
+[06-Oct-2021 08:32:14 UTC] wp_auto_login: trying to login user_id==1 loginusername=bakul to admin_url=https://www.microaware.xyz/wp-admin/
+[06-Oct-2021 14:17:16 UTC] wp_auto_login: trying to login user_id==1 loginusername=bakul to admin_url=https://www.microaware.xyz/wp-admin/
+[07-Oct-2021 16:30:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/microaware.xyz/public_html/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/item-showcase/templates/holder.php on line 15
+[07-Oct-2021 16:30:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/microaware.xyz/public_html/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/item-showcase/templates/holder.php on line 15
+[07-Oct-2021 17:21:25 UTC] PHP Warning:  Creating default object from empty value in /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/SliderManager/SliderManager.php on line 82
+[07-Oct-2021 17:21:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::isGroup() in /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php:40
+Stack trace:
+#0 /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ControllerPreRenderSlider.php(29): Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe->display()
+#1 [internal function]: Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider->actionIframe()
+#2 /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/Framework/Controller/AbstractController.php(93): call_user_func_array(Array, Array)
+#3 /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('iframe', Array)
+#4 /home/customer/www/microaware.xyz/public_html/wp in /home/customer/www/microaware.xyz/public_html/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Frontend/Slider/ViewIframe.php on line 40

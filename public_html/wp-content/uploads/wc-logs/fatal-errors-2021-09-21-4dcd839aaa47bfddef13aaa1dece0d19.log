@@ -1,0 +1,18 @@
+2021-09-21T11:23:15+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in /home/customer/www/micropollutants.xyz/public_html/wp-content/plugins/elementor/core/documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 /home/customer/www/micropollutants.xyz/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/micropollutants.xyz/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 /home/customer/www/micropollutants.xyz/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/micropollutants.xyz/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/customer/www/micropollutants.xyz/public_html/wp-admin/admin-ajax.php(187): do_action('wp_aj in /home/customer/www/micropollutants.xyz/public_html/wp-content/plugins/elementor/core/documents-manager.php on line 487
+
+2021-09-21T11:29:15+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in /home/customer/www/micropollutants.xyz/public_html/wp-content/plugins/elementor/core/documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 /home/customer/www/micropollutants.xyz/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/micropollutants.xyz/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 /home/customer/www/micropollutants.xyz/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/micropollutants.xyz/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/customer/www/micropollutants.xyz/public_html/wp-admin/admin-ajax.php(187): do_action('wp_aj in /home/customer/www/micropollutants.xyz/public_html/wp-content/plugins/elementor/core/documents-manager.php on line 487
+

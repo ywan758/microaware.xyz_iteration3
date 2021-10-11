@@ -1,0 +1,2 @@
+2021-09-04T09:49:35+00:00 CRITICAL require(): Failed opening required '/home/customer/www/micropollutants.xyz/public_html/wp-content/themes/twentytwenty/classes/class-twenty-twenty-one-svg-icons.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/micropollutants.xyz/public_html/wp-content/themes/twentytwentyone/functions.php on line 527
+

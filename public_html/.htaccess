@@ -1,0 +1,101 @@
+# BEGIN HMWP_RULES
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^([_0-9a-zA-Z-]+/)?newlogin$ /wp-login.php [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?newlogin/(.*) /wp-login.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lostpass$ /wp-login.php?action=lostpassword [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?signup$ /wp-login.php?action=register [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/d0f4711431/(.*) /wp-content/plugins/hide-my-wp/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/f2e3ee843c/(.*) /wp-content/plugins/amcharts-charts-and-maps/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/a3d5e21366/(.*) /wp-content/plugins/anywhere-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/705340bb51/(.*) /wp-content/plugins/astra-sites/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/8ef6b071fc/(.*) /wp-content/plugins/card-elements-for-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/ccc473c329/(.*) /wp-content/plugins/elementor-pro/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/f65f29574d/(.*) /wp-content/plugins/elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/9097659473/(.*) /wp-content/plugins/essential-addons-for-elementor-lite/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/b7821f98b6/(.*) /wp-content/plugins/exclusive-addons-for-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/601f5c18ca/(.*) /wp-content/plugins/graphina-elementor-charts-and-graphs/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/71581373fb/(.*) /wp-content/plugins/interactive-geo-maps/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/697351d7e6/(.*) /wp-content/plugins/jetpack/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/be40c7bb56/(.*) /wp-content/plugins/password-protected/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/7b28f06fb0/(.*) /wp-content/plugins/qi-addons-for-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/f6fcbda62a/(.*) /wp-content/plugins/quiz-cat/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/618be400f0/(.*) /wp-content/plugins/sg-cachepress/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/8785386a2a/(.*) /wp-content/plugins/sg-security/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/d1709c6ea9/(.*) /wp-content/plugins/smart-slider-3/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/5f535e89d2/(.*) /wp-content/plugins/wordfence/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/29f4c648b2/(.*) /wp-content/plugins/wordpress-starter/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/f5c07c3ee3/(.*) /wp-content/plugins/wp-cloudflare-page-cache/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/d8cd4b722d/(.*) /wp-content/plugins/wp-custom-admin-interface/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/6d02025611/(.*) /wp-content/plugins/wp-mapbox-gl-js/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?modules/(.*) /wp-content/plugins/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?vews/9dbb40d076/(.*) /wp-content/themes/astra/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?vews/6bd62814f5/(.*) /wp-content/themes/oceanic/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?vews/a8f2e11a54/(.*) /wp-content/themes/storefront/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?vews/6ca4266385/(.*) /wp-content/themes/twentynineteen/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?vews/f1dfeb5569/(.*) /wp-content/themes/twentytwenty/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?vews/96f874eecb/(.*) /wp-content/themes/twentytwentyone/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?vews/(.*) /wp-content/themes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?storage/(.*) /wp-content/uploads/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/(.*) /wp-content/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lib/(.*) /wp-includes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?comments/(.*) /wp-comments-post.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?writer/(.*) /author/$2 [QSA,L]
+</IfModule>
+
+
+# END HMWP_RULES
+# HTTPS forced by SG-Optimizer
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
+    RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+# END HTTPS
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+# BEGIN WP Cloudflare Super Page Cache
+# The directives (lines) between "BEGIN WP Cloudflare Super Page Cache" and "END WP Cloudflare Super Page Cache" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType application/xml "access plus 0 seconds"
+ExpiresByType text/xsl "access plus 0 seconds"
+</IfModule>
+<FilesMatch "\.(xml|xsl)$">
+<IfModule mod_headers.c>
+Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+</IfModule>
+</FilesMatch>
+<FilesMatch "robots\.txt">
+<IfModule mod_headers.c>
+Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+</IfModule>
+</FilesMatch>
+<IfModule mod_rewrite.c>
+RewriteCond %{REQUEST_URI} ^(.*)?/wp-content/wp-cloudflare-super-page-cache/www.microaware.xyz/debug.log(.*)$
+RewriteRule ^(.*)$ - [F]
+</IfModule>
+<FilesMatch "wp-cron.php">
+<IfModule mod_headers.c>
+Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+</IfModule>
+</FilesMatch>
+# END WP Cloudflare Super Page Cache
